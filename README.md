@@ -1,4 +1,4 @@
-# bgld-cli
+# bgld-signer
 
 <img src="doc/img/Bitgesell.png" style="height: 60px;"/>
 
@@ -12,10 +12,10 @@ A CLI tool for interacting with the Bitgesell blockchain network for:
 npm i -g bgld-signer # yarn add --global bgld-signer
 ```
 
-> `bgld-cli` is still in beta.
+> `bgld-signer` is still in beta.
 ## Usage
 
-Basic help and `bgld-cli` version can be checked by simply typing the following on a terminal.
+Basic help and `bgld-signer` version can be checked by simply typing the following on a terminal.
 
 ```sh
 ```
