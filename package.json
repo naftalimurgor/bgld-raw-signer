@@ -15,7 +15,7 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
-    "test": "run-s build test:*",
+    "test": "jest",
     "test:lint": "eslint src --ext .ts",
     "test:prettier": "prettier \"src/**/*.ts\" --list-different",
     "test:spelling": "cspell \"{README.md,.github/*.md,src/**/*.ts}\"",
@@ -46,8 +46,10 @@
   },
   "dependencies": {
     "@bitauth/libauth": "^1.17.1",
+    "axios": "^1.6.5",
     "chalk": "^5.3.0",
-    "commander": "^11.1.0"
+    "commander": "^11.1.0",
+    "jest": "^29.7.0"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
