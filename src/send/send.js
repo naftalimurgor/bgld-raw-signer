@@ -84,4 +84,4 @@ async function broadCastTransaction({
   }
 
 }
-module.exports = { broadCastTransaction }
+module.exports = { broadCastTransaction, generateTxObject }

@@ -2,10 +2,8 @@
   "name": "bgl-signer",
   "version": "1.0.0",
   "description": "Sign Bitgesell transactions offline and broadcast to the Network",
-  "main": "build/main/index.js",
-  "typings": "build/main/index.d.ts",
-  "module": "build/module/index.js",
-  "repository": "https://github.com/naftalimurgor/bgld-raw-signer",
+  "main": "src/in/index.js",
+  "repository": "https://github.com/naftalimurgor/bgld-signer",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -39,7 +37,7 @@
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish"
   },
   "bin": {
-    "bgl-sign": "lib/index.js"
+    "bgl-signer": "src/index.js"
   },
   "engines": {
     "node": ">=10"
